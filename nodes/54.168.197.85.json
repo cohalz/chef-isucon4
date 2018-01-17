@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "recipe[yum-epel]",
+    "recipe[git]",
+    "recipe[chef_nginx]",
+    "recipe[test-mysql]",
+    "recipe[test-go]",
+    "recipe[supervisor]",
+    "recipe[isucon4]",
+    "recipe[test-golang-webapp]"
+  ],
+  "automatic": {
+    "ipaddress": "54.168.197.85"
+  }
+}

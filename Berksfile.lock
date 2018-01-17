@@ -1,0 +1,38 @@
+DEPENDENCIES
+  chef_nginx (~> 6.2.0)
+  golang
+    git: https://github.com/NOX73/chef-golang
+    revision: c3decac8c252a466964f7399245dacbbdb706b07
+    branch: master
+  mysql
+  supervisor (~> 0.4.12)
+  yum-epel
+
+GRAPH
+  build-essential (8.0.4)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef_nginx (6.2.0)
+    build-essential (>= 0.0.0)
+    compat_resource (>= 12.16.3)
+    ohai (>= 4.1.0)
+    yum-epel (>= 0.0.0)
+    zypper (>= 0.0.0)
+  compat_resource (12.19.0)
+  golang (1.7.1)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  mysql (8.5.1)
+  ohai (5.2.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  supervisor (0.4.12)
+    python (>= 0.0.0)
+  windows (3.4.3)
+    ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)
+  zypper (0.4.0)
