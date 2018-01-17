@@ -14,3 +14,7 @@ end
 template '/home/ec2-user/isucon4/env.sh' do
   source 'env.sh'
 end
+
+template '/etc/nginx/conf.d/isucon4.conf' do
+  source 'nginx.conf'
+end
