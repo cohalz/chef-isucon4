@@ -1,0 +1,22 @@
+{
+
+"go": {
+    "version": "1.7",
+    "gopath": "/home/ec2-user/gocode",
+    "gobin": "/usr/local/go/bin"
+},
+
+"run_list": [
+    "recipe[yum-epel]",
+    "recipe[git]",
+    "recipe[chef_nginx]",
+    "recipe[test-mysql]",
+    "recipe[golang]",
+    "recipe[isucon4]",
+    "recipe[test-golang-webapp]"
+],
+
+  "automatic": {
+    "ipaddress": "54.238.120.253"
+  }
+}

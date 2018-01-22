@@ -4,11 +4,11 @@ if [ -f /etc/bashrc ]; then
 
   export PATH=/usr/local/bin:$PATH
   export PATH=/usr/local/go/bin:$PATH
-  export PATH=/home/isucon/.local/ruby/bin:$PATH
-  export PATH=/home/isucon/.local/node/bin:$PATH
-  export PATH=/home/isucon/.local/python/bin:$PATH
-  export PATH=/home/isucon/.local/perl/bin:$PATH
-  export PATH=/home/isucon/.local/php/bin:$PATH
-  export PATH=/home/isucon/.local/php/sbin:$PATH
-  export GOPATH=/home/isucon/gocode
+  export PATH=/home/ec2-user/.local/ruby/bin:$PATH
+  export PATH=/home/ec2-user/.local/node/bin:$PATH
+  export PATH=/home/ec2-user/.local/python/bin:$PATH
+  export PATH=/home/ec2-user/.local/perl/bin:$PATH
+  export PATH=/home/ec2-user/.local/php/bin:$PATH
+  export PATH=/home/ec2-user/.local/php/sbin:$PATH
+  export GOPATH=/home/ec2-user/gocode
   
