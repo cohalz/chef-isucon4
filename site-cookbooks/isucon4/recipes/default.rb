@@ -6,12 +6,21 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-git "/home/ec2-user/isucon4" do
+git "/home/isucon/isucon4" do
+  user "isucon"
   repository "https://github.com/isucon/isucon4.git"
   action :sync
 end
 
-template '/home/ec2-user/isucon4/env.sh' do
+template '/home/isucon/.bashrc' do
+  source '.bashrc'
+end
+
+template '/home/isucon/.bash_profile' do
+  source '.bash_profile'
+end
+
+template '/home/isucon/isucon4/env.sh' do
   source 'env.sh'
 end
 
