@@ -10,3 +10,5 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
+
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig

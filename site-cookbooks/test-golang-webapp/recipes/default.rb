@@ -12,6 +12,8 @@
 execute "build web-app" do
   command "cd /home/ec2-user/isucon4/qualifier/webapp/go; ./build.sh"
   action :run
+  user "ec2-user"
+  group "ec2-user"
   environment(
     "GOPATH" => "/home/ec2-user/gocode",
     "PATH" => "/usr/local/go/bin:#{ENV["PATH"]}"

@@ -8,6 +8,8 @@
 #
 git "/home/ec2-user/isucon4" do
   repository "https://github.com/isucon/isucon4.git"
+    user "ec2-user"
+    group "ec2-user"
   action :sync
 end
 
@@ -25,4 +27,14 @@ template '/home/ec2-user/isucon4/env.sh' do
   group 'ec2-user'
   mode '0755'
 end
+
+execute "init db" do
+    command "sh /home/ec2-user/isucon4/qualifier/init.sh"
+    action :run
+end
+
+gem_package "gondler" do
+    action :install
+end
+
 

@@ -1,3 +1,5 @@
 default['go']['version'] = '1.7'
 default['go']['gopath'] = '/home/ec2-user/gocode'
 default['go']['gobin'] = '/usr/local/go/bin'
+default['go']['owner'] = 'ec2-user'
+default['go']['group'] = 'ec2-user'
