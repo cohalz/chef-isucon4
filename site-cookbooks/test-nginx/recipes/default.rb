@@ -1,11 +1,9 @@
 #
-# Cookbook Name:: test-go
+# Cookbook Name:: test-nginx
 # Recipe:: default
 #
 # Copyright 2018, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
 #
-package 'golang' do
-    action :install
-end
+include_recipe 'nginx'

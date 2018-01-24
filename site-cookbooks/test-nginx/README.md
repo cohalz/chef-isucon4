@@ -1,4 +1,4 @@
-# test-go Cookbook
+# test-nginx Cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -20,14 +20,14 @@ e.g.
 
 ### Cookbooks
 
-- `toaster` - test-go needs toaster to brown your bagel.
+- `toaster` - test-nginx needs toaster to brown your bagel.
 
 ## Attributes
 
 TODO: List your cookbook attributes here.
 
 e.g.
-### test-go::default
+### test-nginx::default
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['test-go']['bacon']</tt></td>
+    <td><tt>['test-nginx']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -46,18 +46,18 @@ e.g.
 
 ## Usage
 
-### test-go::default
+### test-nginx::default
 
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `test-go` in your node's `run_list`:
+Just include `test-nginx` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[test-go]"
+    "recipe[test-nginx]"
   ]
 }
 ```

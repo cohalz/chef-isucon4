@@ -21,8 +21,8 @@ end
 
 template '/home/ec2-user/isucon4/env.sh' do
   source 'env.sh'
+  owner 'ec2-user'
+  group 'ec2-user'
+  mode '0755'
 end
 
-template '/etc/nginx/conf.d/isucon4.conf' do
-  source 'nginx.conf'
-end

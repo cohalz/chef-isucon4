@@ -1,9 +1,9 @@
-# test-go CHANGELOG
+# test-golang CHANGELOG
 
-This file is used to list changes made in each version of the test-go cookbook.
+This file is used to list changes made in each version of the test-golang cookbook.
 
 ## 0.1.0
-- [your_name] - Initial release of test-go
+- [your_name] - Initial release of test-golang
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
