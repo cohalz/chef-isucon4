@@ -50,10 +50,3 @@ execute "init db" do
     command "sh /home/ec2-user/isucon4/qualifier/init.sh"
     action :run
 end
-
-
-gem_package "gondler" do
-    action :install
-end
-
-
