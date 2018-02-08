@@ -1,8 +1,6 @@
 {
   "run_list": [
-"recipe[isucon4-golang]",
-"recipe[isucon4]",
-"recipe[isucon4-golang-webapp]"
+    "role[app]"
   ],
   "automatic": {
     "ipaddress": "54.65.226.141"

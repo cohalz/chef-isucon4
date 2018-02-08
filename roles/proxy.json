@@ -1,0 +1,6 @@
+{
+  "name": "proxy",
+  "run_list": [
+    "recipe[isucon4-nginx]"
+  ]
+}

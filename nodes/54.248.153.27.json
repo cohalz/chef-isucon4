@@ -1,6 +1,6 @@
 {
   "run_list": [
-"recipe[isucon4-mysql]"
+    "role[db]"
   ],
   "automatic": {
     "ipaddress": "54.248.153.27"

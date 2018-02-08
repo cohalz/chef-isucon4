@@ -1,6 +1,6 @@
 {
   "run_list": [
-"recipe[isucon4-nginx]"
+    "role[proxy]"
   ],
   "automatic": {
     "ipaddress": "13.113.253.239"
