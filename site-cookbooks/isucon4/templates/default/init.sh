@@ -5,7 +5,7 @@ cd $(dirname $0)
 
 myuser=isucon
 mydb=isu4_qualifier
-myhost=10.0.0.4
+myhost=10.0.0.31
 myport=3306
 mypass=isucon
 mysql -h ${myhost} -P ${myport} -u ${myuser} -p${mypass} -e "DROP DATABASE IF EXISTS ${mydb}; CREATE DATABASE ${mydb}"
