@@ -1,0 +1,8 @@
+{
+  "run_list": [
+"recipe[lb-proxy]"
+  ],
+  "automatic": {
+    "ipaddress": "13.113.135.188"
+  }
+}
