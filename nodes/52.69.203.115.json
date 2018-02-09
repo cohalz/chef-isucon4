@@ -1,8 +1,0 @@
-{
-  "run_list": [
-    "role[db]"
-  ],
-  "automatic": {
-    "ipaddress": "52.69.203.115"
-  }
-}

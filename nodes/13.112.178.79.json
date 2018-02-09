@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[lb-db]"
+  ],
+  "automatic": {
+    "ipaddress": "13.112.178.79"
+  }
+}

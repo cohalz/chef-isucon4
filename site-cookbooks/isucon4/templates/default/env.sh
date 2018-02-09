@@ -20,4 +20,5 @@ export ISU4_DB_USER=isucon
 export ISU4_DB_PASSWORD=isucon
 export ISU4_DB_NAME=isu4_qualifier
 
+export ISU4_DB_READ_PORT=3307
 exec $*

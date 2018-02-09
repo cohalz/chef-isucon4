@@ -13,6 +13,20 @@ git "/home/ec2-user/isucon4" do
   action :sync
 end
 
+template '/home/ec2-user/isucon4/qualifier/webapp/go/main.go' do
+  source 'main.go'
+  owner 'ec2-user'
+  group 'ec2-user'
+  mode '0755'
+end
+
+template '/home/ec2-user/isucon4/qualifier/webapp/go/db.go' do
+  source 'db.go'
+  owner 'ec2-user'
+  group 'ec2-user'
+  mode '0755'
+end
+
 template '/home/ec2-user/.bashrc' do
   source '.bashrc'
 end
