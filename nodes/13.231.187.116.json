@@ -3,6 +3,6 @@
     "recipe[db-master]"
   ],
   "automatic": {
-    "ipaddress": "13.230.181.49"
+    "ipaddress": "13.231.187.116"
   }
 }

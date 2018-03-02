@@ -3,6 +3,6 @@
     "recipe[lb-app]"
   ],
   "automatic": {
-    "ipaddress": "54.95.88.53"
+    "ipaddress": "13.114.251.36"
   }
 }

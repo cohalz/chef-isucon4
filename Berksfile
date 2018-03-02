@@ -7,3 +7,5 @@ cookbook 'supervisor', '~> 0.4.12'
 cookbook 'golang', '~> 1.7.0'
 cookbook 'database', '~> 6.1.1'
 cookbook 'mysql2_chef_gem', '~> 2.1.0'
+cookbook 'keepalived', '~> 3.1.1'
+

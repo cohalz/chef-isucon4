@@ -3,6 +3,6 @@
     "recipe[db-slave]"
   ],
   "automatic": {
-    "ipaddress": "54.95.95.120"
+    "ipaddress": "13.231.116.250"
   }
 }
