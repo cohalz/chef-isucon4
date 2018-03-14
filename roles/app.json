@@ -1,8 +1,0 @@
-{
-  "name": "app",
-  "run_list": [
-    "recipe[isucon4-golang]",
-    "recipe[isucon4]",
-    "recipe[isucon4-golang-webapp]"
-  ]
-}

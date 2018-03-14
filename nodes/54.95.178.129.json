@@ -1,9 +1,0 @@
-{
-  "run_list": [
-    "recipe[lb-proxy]",
-    "recipe[proxy-keepalived]"
-  ],
-  "automatic": {
-    "ipaddress": "54.95.178.129"
-  }
-}

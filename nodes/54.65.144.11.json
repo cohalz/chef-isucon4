@@ -1,8 +1,0 @@
-{
-  "run_list": [
-    "role[app]"
-  ],
-  "automatic": {
-    "ipaddress": "54.65.144.11"
-  }
-}

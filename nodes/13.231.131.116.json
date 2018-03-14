@@ -1,8 +1,0 @@
-{
-  "run_list": [
-    "role[proxy]"
-  ],
-  "automatic": {
-    "ipaddress": "13.231.131.116"
-  }
-}

@@ -1,0 +1,10 @@
+{
+  "run_list": [
+    "recipe[grabeni]",
+    "recipe[lb-proxy]",
+    "recipe[proxy-keepalived-backup]"
+  ],
+  "automatic": {
+    "ipaddress": "13.231.254.146"
+  }
+}

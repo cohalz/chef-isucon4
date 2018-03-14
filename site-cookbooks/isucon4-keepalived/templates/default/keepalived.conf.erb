@@ -1,0 +1,19 @@
+vrrp_script chk_haproxy {
+    script "pidof haproxy"
+    interval 2
+}
+vrrp_instance VI_1 {
+    debug 2
+    interface eth0 # interface to monitor
+    state <%= node['isucon4-keepalived']['state'] %>
+    virtual_router_id <%= node['isucon4-keepalived']['virtual_router_id'] %>  # Assign one ID for this route
+    priority <%= node['isucon4-keepalived']['priority'] %> # 101 on master, 100 on backup
+    unicast_src_ip <%= node['isucon4-keepalived']['unicast_src_ip'] %> # My IP
+    unicast_peer {
+        <%= node['isucon4-keepalived']['unicast_peer'] %> # peer IP
+    }
+    track_script {
+        chk_haproxy
+    }
+    notify "/etc/keepalived/master.sh"
+}

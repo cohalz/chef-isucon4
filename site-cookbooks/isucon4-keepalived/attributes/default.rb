@@ -1,0 +1,6 @@
+default['isucon4-keepalived']['eni'] = ""
+default['isucon4-keepalived']['state'] = ""
+default['isucon4-keepalived']['virtual_router_id'] = ""
+default['isucon4-keepalived']['priority'] = ""
+default['isucon4-keepalived']['unicast_src_ip'] = ""
+default['isucon4-keepalived']['unicast_peer'] = ""

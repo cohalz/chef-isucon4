@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source /home/ec2-user/.bashrc
+echo 2 >> /home/ec2-user/test.txt
+
+TYPE=$1
+NAME=$2
+STATE=$3
+
+echo $STATE >> /home/ec2-user/test.txt
+case $STATE in
+    "MASTER") # Perform action for transition to MASTER state
+        grabeni grab -f "<%= node['isucon4-keepalived']['eni'] %>" &>> /home/ec2-user/test.txt
+;;
+esac
+
+echo 3 >> /home/ec2-user/test.txt

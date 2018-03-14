@@ -1,8 +1,0 @@
-{
-  "run_list": [
-    "recipe[db-slave]"
-  ],
-  "automatic": {
-    "ipaddress": "54.199.183.49"
-  }
-}

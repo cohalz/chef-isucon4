@@ -1,0 +1,18 @@
+{
+  "run_list": [
+    "recipe[lb-proxy]",
+    "recipe[grabeni]",
+    "recipe[isucon4-keepalived]"
+  ],
+  "isucon4-keepalived" : {
+    "eni": "eni-0ea0bc00",
+    "state": "BACKUP",
+    "virtual_router_id": "51",
+    "priority": "100",
+    "unicast_src_ip": "10.0.0.160",
+    "unicast_peer": "10.0.0.60"
+  },
+  "automatic": {
+    "ipaddress": "18.182.22.209"
+  }
+}
