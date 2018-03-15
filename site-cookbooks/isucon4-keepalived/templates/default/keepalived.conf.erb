@@ -4,7 +4,7 @@ vrrp_script chk_haproxy {
 }
 vrrp_instance VI_1 {
     debug 2
-    interface eth0 # interface to monitor
+    interface <%= node['isucon4-keepalived']['interface'] %> # interface to monitor
     state <%= node['isucon4-keepalived']['state'] %>
     virtual_router_id <%= node['isucon4-keepalived']['virtual_router_id'] %>  # Assign one ID for this route
     priority <%= node['isucon4-keepalived']['priority'] %> # 101 on master, 100 on backup

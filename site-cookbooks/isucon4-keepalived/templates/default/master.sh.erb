@@ -10,7 +10,7 @@ STATE=$3
 echo $STATE >> /home/ec2-user/test.txt
 case $STATE in
     "MASTER") # Perform action for transition to MASTER state
-        grabeni grab -f "<%= node['isucon4-keepalived']['eni'] %>" &>> /home/ec2-user/test.txt
+      grabeni grab -d <%= node['isucon4-keepalived']['device_index'] %> -f "<%= node['isucon4-keepalived']['eni'] %>" &>> /home/ec2-user/test.txt
 ;;
 esac
 

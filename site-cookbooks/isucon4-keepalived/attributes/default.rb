@@ -1,4 +1,6 @@
 default['isucon4-keepalived']['eni'] = ""
+default['isucon4-keepalived']['device_index'] = "1"
+default['isucon4-keepalived']['interface'] = "eth0"
 default['isucon4-keepalived']['state'] = ""
 default['isucon4-keepalived']['virtual_router_id'] = ""
 default['isucon4-keepalived']['priority'] = ""
