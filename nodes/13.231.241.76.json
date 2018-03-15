@@ -1,0 +1,19 @@
+{
+  "run_list": [
+    "recipe[lb-app]",
+    "recipe[isucon4-keepalived]"
+  ],
+  "isucon4-keepalived" : {
+    "eni": "eni-71d53f70",
+    "device_index": "2",
+    "interface": "eth1",
+    "state": "MASTER",
+    "virtual_router_id": "53",
+    "priority": "101",
+    "unicast_src_ip": "10.0.0.120",
+    "unicast_peer": "10.0.0.220"
+  },
+  "automatic": {
+    "ipaddress": "13.231.241.76"
+  }
+}

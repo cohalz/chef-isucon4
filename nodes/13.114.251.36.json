@@ -1,7 +1,17 @@
 {
   "run_list": [
-    "recipe[lb-app]"
+    "recipe[lb-app]",
+    "recipe[grabeni]",
+    "recipe[isucon4-keepalived]"
   ],
+  "isucon4-keepalived" : {
+    "eni": "eni-e1ce24e0",
+    "state": "MASTER",
+    "virtual_router_id": "52",
+    "priority": "101",
+    "unicast_src_ip": "10.0.0.20",
+    "unicast_peer": "10.0.0.120"
+  },
   "automatic": {
     "ipaddress": "13.114.251.36"
   }
