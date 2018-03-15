@@ -7,13 +7,13 @@
     "eni": "eni-ba7581bb",
     "device_index": "2",
     "interface": "eth1",
-    "state": "MASTER",
+    "state": "BACKUP",
     "virtual_router_id": "54",
-    "priority": "101",
-    "unicast_src_ip": "10.0.0.130",
-    "unicast_peer": "10.0.0.230"
-  },
+    "priority": "100",
+    "unicast_src_ip": "10.0.0.230",
+    "unicast_peer": "10.0.0.130"
+},
   "automatic": {
-    "ipaddress": "13.231.192.143"
+    "ipaddress": "18.182.17.74"
   }
 }
